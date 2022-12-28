@@ -1,0 +1,48 @@
+h1
+{
+    color:gray;
+    text-align:center; 
+    text-decoration:underline;
+    font-family:Comic Sans MS;
+    
+}
+h2 {
+    
+}
+.mydiv{
+    border-width:4px;
+    border-style:solid;
+    border-radius:2px; 
+    width: 200px;
+    padding:10px;
+    margin-top:200px;
+    position: absolute;
+    left: 2px;
+    top: 150px;
+
+}
+div p{
+    color: green;
+}
+a[href=""]{
+    color: rgb(250, 11, 11);
+    background-color: rgb(4, 6, 165);
+    margin-left:225px;
+}
+.one{
+    color: blue;
+}
+.two
+{
+    color: brown;
+}
+li{
+    color: blue;
+    text-shadow:2px 2px lightgray;
+}
+p{
+    color:red;
+    background-color:rgb(196, 236, 16);
+    font-family:Lucida Sans;
+    text-align:center;
+}

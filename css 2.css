@@ -1,0 +1,31 @@
+h1{
+    color:blue;
+    font: size 20px;
+
+}
+h2.specific{
+    color: greenyellow;
+}
+h2{
+    color:red;
+}
+div .pfirst{
+    color:violet;
+}
+p.psecond{
+    color: brown;
+}
+h2.h2{
+    color: red;
+}
+ul{
+    color: green;
+}
+a[ href]{
+    background-color:green;
+    color:white;
+}
+a[href*=desk]{
+    color:red;
+    background-color:white;
+}
