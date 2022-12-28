@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> web form </title>
+    </head>
+    <!--my html code-->
+    <body bgcolor="green">
+       <p>please fill this form</p>
+       <form ><!-- form making-->
+        <label for="username">First name:</label>
+        <input type="text" name="firstname" id="firstname"  placeholder="Enter firstname"  required>
+        <label for="username">Last name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Enter lastname" required>
+        <label for="password">password</label>
+        <input type="password" name=""password id="password" placeholder="password" required><br><br>
+        <h1>SKILLS</h1>
+        <input type="checkbox" name="checkbox1" id="checkbox1" value="html">
+        <label for="checkbox1">HTML</label><br>
+        <input type="checkbox" name="checkbox2" id="checkbox2" value="css">
+        <label for="checkbox2">CSS</label><br>
+        <input type="checkbox" name="checkbox3" id="checkbox3" value="java">
+        <label for="checkbox3">JAVA</label><br>
+        <input type="checkbox" name="checkbox4" id="checkbox4" value="python">
+        <label for="checkbox4">PYTHON</label><br>
+        <input type="checkbox" name="checkbox5" id="checkbox5" value="js">
+        <label for="checkbox5">JS</label><br>
+        <label for="question">Course</label>
+        <select name="course" id="course">
+            <option value="c1">UG</option>
+            <option value="c2">PG</option>
+            <option value="c3">PLUS TWO</option>
+            <option value="c3">SSLC</option>
+        </select><br><br>
+        <!--gender-->
+        <h1>GENDER</h1>
+        <input type="radio" name="gender" value="male" id="option-1">
+        <label for="option-1">male</label><br>
+        <input type="radio" name="gender" value="female" id="option-2">
+        <label for="option-2">female</label><br>
+        <input type="radio" name="gender" value="others" id="option-3">
+        <label for="option-3">others</label><br>
+        <!--age-->
+        <h1>AGE</h1>
+        <input type="radio" name="age" value="0-18" id="option-4">
+        <label for="option-4">0-18</label><br>
+        <input type="radio" name="age" value="others" id="option-5">
+        <label for="option-5">18-25</label><br>
+        <input type="radio" name="age" value="others" id="option-6">
+        <label for="option-6">25+</label><br>
+        <!--email-->
+        <label for="email">enter your email</label>
+        <input type="email" name="email" id="email" placeholder="your email address"><br><br>
+        <!--question-->
+        <label for="question">security question</label>
+        <select name="question" id="question">
+            <option value="q1">which is your best friend</option>
+            <option value="q2">what is your hobby</option>
+            <option value="q3">which is your school</option>
+        </select><br><br>
+        <label for="text">security answer</label>
+        <input type="text" id="text" placeholder=" answer"><br><br>
+        <!--text area-->
+        <label for="bio">enter your biography</label><br>
+        <textarea name="bio" id="bio" placeholder="your bio...."cols="30" rows="10"></textarea>
+        <input type="submit" value="submit the form">
+       </form>
+       <!--last paragraph-->
+       <p><em>  thanks for your patient response</em></p>
+       <label for="reset">button</label>
+       <input type="color" value="blue" id="color">
+    </body>
+
+</html>
